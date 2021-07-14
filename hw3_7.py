@@ -59,3 +59,6 @@ print(byd_1.get_complect())
 print(byd_2.get_additional_options())
 print(byd_2.get_price())
 print(byd_2.get_complect())
+
+
+#Добрый день. только одно задание, просто просматриваю предидущие занятия, а по этой теме, на сейчас, пока понятно
