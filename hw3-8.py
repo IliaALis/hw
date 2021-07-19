@@ -21,7 +21,7 @@ class Pinguin:
         return self.__kind_of_pinguin
 
     @kind_of_pinguin.setter
-    def kind_of_pinguin(self):
+    def kind_of_pinguin(self, value):
         value = random.randint(1,3)
         if value == 1:
             self.__kind_of_pinguin = 'stupid'
@@ -38,7 +38,7 @@ class Pinguin:
         return self.__kind_of_body
 
     @kind_of_body.setter
-    def kind_of_body(self):
+    def kind_of_body(self, value):
         value = random.randint(1,3)
         if value == 1:
             self.__kind_of_body = 'fat'
@@ -55,7 +55,7 @@ class Pinguin:
         return self.__where_is
 
     @where_is.setter
-    def where_is(self):
+    def where_is(self, value):
         value = random.randint(1,3)
         if value == 1:
             self.__where_is = 'in the cliffs'
@@ -72,10 +72,10 @@ if __name__ == "__main__":
     albatross = Pinguin(kind_of_pinguin='kind', kind_of_body="body_",  whre_is='where')
      
 
-    albatross.kind_of_body
+    albatross.kind_of_body = 'body_'
     
-    albatross.kind_of_pinguin
+    albatross.kind_of_pinguin = 'kind'
     
-    albatross.where_is
+    albatross.where_is = 'where'
     print(albatross)
   
