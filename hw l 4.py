@@ -22,7 +22,7 @@ while True:
                     print(', '.join(newMovies))
                 if a == False:
 
-                    print('этот список - плинтус, бро')
+                    print('не в этом списке')
                     break
         else:
             print('no way')
